@@ -1,36 +1,165 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Aegis AI
 
-## Getting Started
+## 🏆 Challenge Vertical
 
-First, run the development server:
+Smart Stadiums & Tournament Operations
+
+---
+
+## 📖 Overview
+
+Aegis AI is an AI-powered stadium operations platform designed to assist volunteers and event coordinators during large sporting events such as the FIFA World Cup 2026.
+
+The platform combines AI-driven incident analysis, multilingual communication, and a live operations dashboard to improve response time, crowd management, and spectator experience.
+
+---
+
+## ✨ Features
+
+### 🚨 AI Incident Commander
+
+- Analyze live incidents
+- Generate AI-powered recommendations
+- Assess risk level
+- Suggest volunteer deployment
+- Estimate resolution time
+- Maintain incident history
+
+### 🌍 AI Volunteer Interpreter
+
+- Automatic language detection
+- Translate spectator speech into English
+- Translate volunteer responses back into the visitor's language
+- Support multilingual communication during international events
+
+### 📊 Live Stadium Operations Dashboard
+
+- Stadium overview
+- Live incident monitoring
+- AI reasoning panel
+- Match status
+- Operational insights
+
+---
+
+## 🧠 Approach & Logic
+
+The application collects incident details entered by operators and uses an AI reasoning engine powered by Groq to generate structured operational recommendations.
+
+For multilingual assistance, the platform translates conversations between volunteers and international spectators, reducing communication barriers during live events.
+
+Firebase Authentication and Cloud Firestore are used to manage users and application data.
+
+---
+
+## ⚙️ Tech Stack
+
+- Next.js 16
+- React
+- TypeScript
+- Tailwind CSS
+- Firebase Authentication
+- Cloud Firestore
+- Groq API
+- Framer Motion
+- shadcn/ui
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+ ├── app/
+ ├── ai/
+ ├── components/
+ ├── services/
+ ├── hooks/
+ ├── lib/
+ └── types/
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository
+
+```bash
+git clone https://github.com/sunnywityyy/aegis-ai.git
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Create a `.env.local` file and add your environment variables.
+
+Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Build for production
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+npm run build
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔑 Required Environment Variables
 
-To learn more about Next.js, take a look at the following resources:
+```
+GROQ_API_KEY=
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+NEXT_PUBLIC_FIREBASE_API_KEY=
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
 
-## Deploy on Vercel
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
+
+---
+
+## 🌐 Live Demo
+
+Add your deployed Vercel URL here.
+
+Example
+
+```
+https://your-project.vercel.app
+```
+
+---
+
+## 📝 Assumptions
+
+- Internet connectivity is available inside the stadium.
+- Volunteers have access to smartphones or tablets.
+- AI recommendations assist operators but do not replace human decision-making.
+- Firebase services are available during operation.
+
+---
+
+## 👥 Team
+
+**Team Name:** Antique Ant
+
+Project: **Aegis AI**
+
+---
+
+## 📄 License
+
+Developed for the Hack2Skill Prompt Wars Hackathon.
