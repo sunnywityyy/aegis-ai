@@ -133,13 +133,8 @@ NEXT_PUBLIC_FIREBASE_APP_ID=
 
 ## 🌐 Live Demo
 
-Add your deployed Vercel URL here.
 
-Example
-
-```
-https://aegis-ai-ashen.vercel.app/
-```
+https://aegis-ai-ashen.vercel.app
 
 ---
 
