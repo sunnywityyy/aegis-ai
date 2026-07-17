@@ -138,7 +138,7 @@ Add your deployed Vercel URL here.
 Example
 
 ```
-https://your-project.vercel.app
+https://aegis-ai-ashen.vercel.app/
 ```
 
 ---
