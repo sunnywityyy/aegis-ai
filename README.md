@@ -1,60 +1,51 @@
-# Aegis AI
+# 🛡️ Aegis AI
 
-## 🏆 Challenge Vertical
+## AI-Powered Command & Decision Support Platform for Smart Stadium Operations
 
-Smart Stadiums & Tournament Operations
+Aegis AI is an intelligent stadium operations platform designed to enhance safety, volunteer coordination, and real-time decision-making during large-scale sporting events.
 
----
-
-## 📖 Overview
-
-Aegis AI is an AI-powered stadium operations platform designed to assist volunteers and event coordinators during large sporting events such as the FIFA World Cup 2026.
-
-The platform combines AI-driven incident analysis, multilingual communication, and a live operations dashboard to improve response time, crowd management, and spectator experience.
+Built with Generative AI, the platform assists stadium operators by analyzing incidents, identifying operational priorities, supporting multilingual communication, and providing actionable recommendations through an interactive command center dashboard.
 
 ---
 
-## ✨ Features
+# 🚀 Challenge
 
-### 🚨 AI Incident Commander
+**Hack2Skill Prompt Wars**
 
-- Analyze live incidents
-- Generate AI-powered recommendations
-- Assess risk level
-- Suggest volunteer deployment
-- Estimate resolution time
-- Maintain incident history
+**Problem Statement:** Smart Stadiums & Tournament Operations
+
+---
+
+# ✨ Features
+
+### 🧠 AI Incident Commander
+- Analyzes incoming incidents.
+- Prioritizes emergency situations.
+- Generates intelligent response recommendations.
+- Assists operators with faster decision-making.
 
 ### 🌍 AI Volunteer Interpreter
+- Supports multilingual communication.
+- Bridges language gaps between volunteers and operators.
+- Enables smoother coordination during live events.
 
-- Automatic language detection
-- Translate spectator speech into English
-- Translate volunteer responses back into the visitor's language
-- Support multilingual communication during international events
+### 📊 Live Operations Dashboard
+- Real-time stadium monitoring.
+- Crowd density visualization.
+- Zone-based hotspot detection.
+- Operational status monitoring.
 
-### 📊 Live Stadium Operations Dashboard
-
-- Stadium overview
-- Live incident monitoring
-- AI reasoning panel
-- Match status
-- Operational insights
-
----
-
-## 🧠 Approach & Logic
-
-The application collects incident details entered by operators and uses an AI reasoning engine powered by Groq to generate structured operational recommendations.
-
-For multilingual assistance, the platform translates conversations between volunteers and international spectators, reducing communication barriers during live events.
-
-Firebase Authentication and Cloud Firestore are used to manage users and application data.
+### ⚡ AI Decision Support
+- Context-aware recommendations.
+- Risk assessment.
+- Volunteer deployment suggestions.
+- Operational insights instead of raw data.
 
 ---
 
-## ⚙️ Tech Stack
+# 🏗️ Technology Stack
 
-- Next.js 16
+- Next.js
 - React
 - TypeScript
 - Tailwind CSS
@@ -63,25 +54,26 @@ Firebase Authentication and Cloud Firestore are used to manage users and applica
 - Groq API
 - Framer Motion
 - shadcn/ui
+- Vercel
 
 ---
 
-## 📂 Project Structure
+# 📂 Project Structure
 
 ```
 src/
  ├── app/
  ├── ai/
  ├── components/
- ├── services/
  ├── hooks/
  ├── lib/
- └── types/
+ ├── services/
+ ├── types/
 ```
 
 ---
 
-## 🚀 Installation
+# ⚙️ Installation
 
 Clone the repository
 
@@ -95,9 +87,20 @@ Install dependencies
 npm install
 ```
 
-Create a `.env.local` file and add your environment variables.
+Create a `.env.local` file
 
-Run the development server
+```env
+GROQ_API_KEY=
+
+NEXT_PUBLIC_FIREBASE_API_KEY=
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
+NEXT_PUBLIC_FIREBASE_APP_ID=
+```
+
+Run locally
 
 ```bash
 npm run dev
@@ -111,50 +114,27 @@ npm run build
 
 ---
 
-## 🔑 Required Environment Variables
-
-```
-GROQ_API_KEY=
-
-NEXT_PUBLIC_FIREBASE_API_KEY=
-
-NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=
-
-NEXT_PUBLIC_FIREBASE_PROJECT_ID=
-
-NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=
-
-NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=
-
-NEXT_PUBLIC_FIREBASE_APP_ID=
-```
-
----
-
-## 🌐 Live Demo
-
+# 🌐 Live Demo
 
 https://aegis-ai-ashen.vercel.app
 
 ---
 
-## 📝 Assumptions
+# 💡 Assumptions
 
 - Internet connectivity is available inside the stadium.
 - Volunteers have access to smartphones or tablets.
-- AI recommendations assist operators but do not replace human decision-making.
-- Firebase services are available during operation.
+- AI assists operators but does not replace human decision-making.
+- Firebase services remain available during operation.
 
 ---
 
-## 👥 Team
+# 🎯 Vision
 
-**Team Name:** Antique Ant
-
-Project: **Aegis AI**
+Aegis AI demonstrates how Generative AI can transform stadium management by enabling intelligent decision support, improving coordination, and helping operators respond more effectively during high-pressure events.
 
 ---
 
-## 📄 License
+# 📄 License
 
-Developed for the Hack2Skill Prompt Wars Hackathon.
+Developed as part of the **Hack2Skill Prompt Wars** challenge.
